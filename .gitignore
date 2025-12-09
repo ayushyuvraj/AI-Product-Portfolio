@@ -21,4 +21,4 @@ real_traffic_eval_report.csv
 
 # --- API Keys & Secrets ---
 secrets.toml
-.streamlit/secrets.toml
+.streamlit/secrets.tomlgit rm --cached detailed_eval_report.csv

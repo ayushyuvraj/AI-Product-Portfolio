@@ -11,7 +11,7 @@
 | 02 | **[Text-to-SQL Data Bridge](./02_SQL_Data_Bridge)** | `LangChain` `SQL` | 🛠️ Prototype | ✅ Complete |
 | 03 | **[Google Pay AI Strategy](./03_Google_Pay_Strategy)** | `Product Vision` `Growth` | 📄 Strategy PRD | ✅ Complete |
 | 04 | **[Customer Sentiment Pulse](./04_Customer_Sentiment_Pulse)** | `HuggingFace` `Transformers` `DistilBERT` | 🛠️ Prototype | ✅ Complete |
-| 05 | **[Real-Time Fraud System Design](./05_Fraud_Detection_System_Design/)** | 📄 System Design | 📄 Spec Doc | ✅ Complete |
+| 05 | **[Real-Time Fraud System Design](./05_Fraud_Detection_System_Design/)** | `Kafka` `Redis` `Architecture` | 📄 Spec Doc | ✅ Complete |
 | 06 | **[Agile Transformation Leadership](./06_Leadership_Case_Study/)** | `People Management` `Culture` | 🦁 Leadership | ✅ Complete |
 
 ---
