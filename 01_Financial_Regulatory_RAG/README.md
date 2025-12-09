@@ -61,27 +61,25 @@ The system does not rely on "vibes." It implements a quantitative MLOps Feedback
     MetricTargetCurrent PerformanceLatency (p99)< 3s~1.8sFaithfulness> 0.900.94 (Verified via Trust Layer)Answer Relevance> 0.850.89 (Verified via Trust Layer)
 
 ## ⚙️ How to Run Locally
+
 ### 1. Clone the Repository
 ``` 
-Bash
-
 git clone https://github.com/ayushyuvraj/AI-Product-Portfolio.git
 cd 01_Financial_Regulatory_RAG
 ```
 
 ### 2. Install Dependencies
-
-Bash
-
+```
 pip install -r requirements.txt
-Run the Application
+```
 
-Bash
-
+### 3. Run the Application
+```
 streamlit run app.py
-Run the Trust Layer (Evaluation)
+```
 
-Bash
-
+### 4. Run the Trust Layer (Evaluation)
+```
 python evaluate.py
 # Runs the Async Judge to audit logs and generate metrics.
+```
