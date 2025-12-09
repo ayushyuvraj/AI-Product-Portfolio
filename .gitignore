@@ -1,11 +1,24 @@
-# Ignore virtual environment
+# --- Python & System ---
+__pycache__/
+*.pyc
 venv/
 env/
 .env
-
-# Ignore compiled python files
-__pycache__/
-*.pyc
-
-# Ignore system files
 .DS_Store
+
+# --- Data & Logs (Privacy Layer) ---
+*.csv
+*.log
+*.sqlite
+*.db
+
+# --- Specific Generated Reports (Just to be safe) ---
+interaction_logs.csv
+evaluation_report.csv
+custom_eval_report.csv
+detailed_eval_report.csv
+real_traffic_eval_report.csv
+
+# --- API Keys & Secrets ---
+secrets.toml
+.streamlit/secrets.toml
