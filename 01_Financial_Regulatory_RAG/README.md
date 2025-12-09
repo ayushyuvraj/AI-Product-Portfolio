@@ -24,9 +24,11 @@ graph TD
     B -- Unsafe --> C["Block Request"]
     B -- Safe --> D["🔍 Vector Retrieval (FAISS)"]
     D --> E["📝 Prompt Augmentation"]
-    E --> F["🤖 LLM Inference"]
+    E --> F["🤖 LLM Inference (GPT-3.5)"]
     F --> G["✅ Final Answer"]
     G --> H["⚖️ The Trust Layer (Async Judge)"]
+```
+
 
 1. Ingestion Layer (ETL)
     Extraction: Uses PyPDF2 to strip text from unstructured regulatory documents.
