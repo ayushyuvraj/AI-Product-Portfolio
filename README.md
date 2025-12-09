@@ -15,10 +15,6 @@
 | 06 | **[Agile Transformation Leadership](./06_Leadership_Case_Study/)** | `People Management` `Culture` | 🦁 Leadership | ✅ Complete |
 
 ---
-✅ Complete
-🚧 In Progress
-⏳ Planned
----
 
 ## 🛠️ About Me
 I am a Product Leader with 10+ years in Product Management, currently pivoting to AI Product Management. This repository serves as my "Proof of Work," demonstrating not just strategy, but the technical capability to architect and deploy LLM applications.

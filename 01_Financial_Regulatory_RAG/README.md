@@ -30,14 +30,14 @@ graph TD
 ```
 
 
-1. Ingestion Layer (ETL)
+### 1. Ingestion Layer (ETL)
     Extraction: Uses PyPDF2 to strip text from unstructured regulatory documents.
 
     Chunking: Implements RecursiveCharacterTextSplitter (Chunk Size: 1000) to preserve semantic context.
 
     Embedding: Vectors generated via text-embedding-3-small and indexed in FAISS for sub-millisecond retrieval.
 
-2. The Safety Layer (Guardrails)
+### 2. The Safety Layer (Guardrails)
 Before retrieval, every query passes through a Pre-Computation Check:
 
     Intent Classification: Detects malicious intents (e.g., money laundering).
@@ -46,7 +46,7 @@ Before retrieval, every query passes through a Pre-Computation Check:
 
     Outcome: Reduces brand risk by preventing the model from generating non-compliant text.
 
-3. The Trust Layer (Evaluation & Observability)
+### 3. The Trust Layer (Evaluation & Observability)
 The system does not rely on "vibes." It implements a quantitative MLOps Feedback Loop:
 
     Logging: All interactions (Question/Answer/Context) are logged to a secure audit trail.
@@ -60,14 +60,16 @@ The system does not rely on "vibes." It implements a quantitative MLOps Feedback
 ## 📊 Performance Metrics (Verified)
     MetricTargetCurrent PerformanceLatency (p99)< 3s~1.8sFaithfulness> 0.900.94 (Verified via Trust Layer)Answer Relevance> 0.850.89 (Verified via Trust Layer)
 
-⚙️ How to Run Locally
-Clone the Repository
-
+## ⚙️ How to Run Locally
+### 1. Clone the Repository
+``` 
 Bash
 
 git clone https://github.com/ayushyuvraj/AI-Product-Portfolio.git
 cd 01_Financial_Regulatory_RAG
-Install Dependencies
+```
+
+### 2. Install Dependencies
 
 Bash
 
