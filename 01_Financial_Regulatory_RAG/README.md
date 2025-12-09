@@ -1,6 +1,6 @@
 # 🏦 Financial Compliance Copilot (Enterprise RAG)
 
-**[🔴 Live Demo](https://ayush-fintech-copilot.streamlit.app)** | **[📄 Project Architecture](#-technical-architecture)**
+**[🟢 Live Demo](https://ayush-fintech-copilot.streamlit.app)** | **[📄 Project Architecture](#-technical-architecture)**
 
 > **Status:** Production-Grade Product
 > **Stack:** LangChain, OpenAI, FAISS, Streamlit, **Ragas (Custom Evals)**
@@ -20,10 +20,10 @@ The system follows a 5-stage ETL and Inference pipeline:
 
 ```mermaid
 graph TD
-    A[User Query] --> B{🛡️ Safety Guardrails}
-    B -- Unsafe --> C[Block Request]
-    B -- Safe --> D[🔍 Vector Retrieval (FAISS)]
-    D --> E[📝 Prompt Augmentation]
-    E --> F[🤖 LLM Inference (GPT-3.5)]
-    F --> G[✅ Final Answer]
-    G --> H[⚖️ The Trust Layer (Async Judge)]
+    A["User Query"] --> B{"🛡️ Safety Guardrails"}
+    B -- Unsafe --> C["Block Request"]
+    B -- Safe --> D["🔍 Vector Retrieval (FAISS)"]
+    D --> E["📝 Prompt Augmentation"]
+    E --> F["🤖 LLM Inference (GPT-3.5)"]
+    F --> G["✅ Final Answer"]
+    G --> H["⚖️ The Trust Layer (Async Judge)"]
