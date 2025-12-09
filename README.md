@@ -7,7 +7,7 @@
 
 | # | Project Name | Tech Stack | Type | Status |
 |:-:|:---|:---|:---|:---:|
-| 01 | **[Regulatory Compliance Copilot (RAG)](./01_Financial_Regulatory_RAG)** | `LangChain` `OpenAI` `FAISS` | 🛠️ **Live Product** | [🟢 **Live Demo**](https://ayush-fintech-copilot.streamlit.app/) |
+| 01 | **[Regulatory Compliance Copilot (RAG)](./01_Financial_Regulatory_RAG)** | `LangChain` `OpenAI` `FAISS` `Guardrails` | 🛠️ **Live Product** | [🟢 **Live Demo**](https://ayush-fintech-copilot.streamlit.app/) |
 | 02 | **[Text-to-SQL Data Bridge](./02_SQL_Data_Bridge)** | `LangChain` `SQL` | 🛠️ Prototype | ✅ Complete |
 | 03 | **[Google Pay AI Strategy](./03_Google_Pay_Strategy)** | `Product Strategy` `PRD` | 📄 Artifact | ✅ Complete |
 | 04 | **[Customer Sentiment Pulse](./04_Customer_Sentiment_Pulse)** | `HuggingFace` `Transformers` | 🛠️ Prototype | ✅ Complete |
