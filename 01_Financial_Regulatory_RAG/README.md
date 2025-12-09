@@ -49,10 +49,11 @@ The system does not rely on "vibes." It implements a quantitative MLOps Feedback
 *   **Relevance Score**: Did the answer directly address the user's question?
 
 ## 📊 Performance Metrics (Verified)
-Metric,Target,Current Performance
-Latency (p99),< 3s,~1.8s
-Faithfulness,> 0.90,0.94 (Verified via Trust Layer)
-Answer Relevance,> 0.85,0.89 (Verified via Trust Layer)
+| Metric | Target | Current Performance |
+| :--- | :--- | :--- |
+| **Latency (p99)** | < 3s | ~1.8s |
+| **Faithfulness** | > 0.90 | **0.94** (Verified via Trust Layer) |
+| **Answer Relevance** | > 0.85 | **0.89** (Verified via Trust Layer) |
 
 ## ⚙️ How to Run Locally
 
