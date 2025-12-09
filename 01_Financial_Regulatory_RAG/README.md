@@ -42,3 +42,6 @@ This project demonstrates an end-to-end **ETL Pipeline** for unstructured financ
 * **Multi-Document Support:** Ingesting multiple circulars simultaneously.
 * **Hybrid Search:** Combining Keyword (BM25) and Semantic search for better precision.
 * **Citation Highlighting:** Visual UI showing exact page numbers of the source text.
+
+4.  **Quality Assurance**
+    Implemented an automated evaluation pipeline using Ragas to track 'Faithfulness' and 'Answer Relevance' metrics, ensuring the model does not hallucinate regulatory facts.
