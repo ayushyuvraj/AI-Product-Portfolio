@@ -29,7 +29,8 @@ graph TD
     E --> F["Extract Data & Check Fraud"]
     F --> G["✅ User Verdict"]
     F --> H["📝 Log Reasoning Trace (CSV)"]
-    H --> I["⚖️ Async Logic Audit"]```
+    H --> I["⚖️ Async Logic Audit"]
+```
 
 
 ### 1. The Vision Engine
