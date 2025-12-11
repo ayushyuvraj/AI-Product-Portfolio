@@ -13,7 +13,7 @@
 | 04 | **[Customer Sentiment Pulse](./04_Customer_Sentiment_Pulse)** | `HuggingFace` `Transformers` `DistilBERT` | 🛠️ Prototype | ✅ Complete |
 | 05 | **[Real-Time Fraud System Design](./05_Fraud_Detection_System_Design/)** | `Kafka` `Redis` `Architecture` | 📄 Spec Doc | ✅ Complete |
 | 06 | **[Agile Transformation Leadership](./06_Leadership_Case_Study/)** | `People Management` `Culture` | 🦁 Leadership | ✅ Complete |
-| 07 | **[Gemini Vision KYC](./07_Gemini_Vision_KYC/)** | `Google Gemini 2.5 Flash` `Streamlit` `Guardrails` `Logging` `Evals` | 🛠️ **Live Product** | 🟢 **Live Demo**](https://gemini-vision-kyc-ayush.streamlit.app/) |
+| 07 | **[Gemini Vision KYC](./07_Gemini_Vision_KYC/)** | `Google Gemini 2.5 Flash` `Streamlit` `Guardrails` `Logging` `Evals` | 🛠️ **Live Product** | [🟢 **Live Demo**](https://gemini-vision-kyc-ayush.streamlit.app/) |
 
 ---
 
