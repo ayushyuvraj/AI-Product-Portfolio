@@ -18,6 +18,8 @@ evaluation_report.csv
 custom_eval_report.csv
 detailed_eval_report.csv
 real_traffic_eval_report.csv
+vision_audit_report.csv
+vision_logs.csv
 
 # --- API Keys & Secrets ---
 secrets.toml
