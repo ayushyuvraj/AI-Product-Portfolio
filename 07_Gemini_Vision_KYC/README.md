@@ -1,6 +1,6 @@
 # 🏦 Financial Compliance Copilot (Enterprise RAG)
 
-**[🟢 Live Demo](https://ayush-fintech-copilot.streamlit.app)** | **[📄 Project Architecture](#️-technical-architecture)**
+**[🟢 Live Demo](https://gemini-vision-kyc-ayush.streamlit.app/)** | **[📄 Project Architecture](#️-technical-architecture)**
 
 > **Status:** Production-Grade PoC with Privacy-Preserving Audit Logs.
 > **Stack:** Google Gemini 1.5 Flash, Streamlit, Python, **Custom Evals**
