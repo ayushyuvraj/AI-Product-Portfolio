@@ -1,8 +1,5 @@
 name: Keep Streamlit Apps Alive
 
-permissions:
-  contents: write
-
 on:
   schedule:
     - cron: '0 */8 * * *'
@@ -12,17 +9,17 @@ jobs:
   ping-apps:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-
       - name: Ping Fraud Command Center
-        run: curl -s -o /dev/null -w "Fraud: %{http_code}\n" https://fraud-command-center-ayush.streamlit.app/
+        run: curl -s -o /dev/null -w "Fraud %{http_code}\n" https://fraud-command-center-ayush.streamlit.app/
 
       - name: Ping Compliance Copilot
-        run: curl -s -o /dev/null -w "Copilot: %{http_code}\n" https://ayush-fintech-copilot.streamlit.app/
+        run: curl -s -o /dev/null -w "Copilot %{http_code}\n" https://ayush-fintech-copilot.streamlit.app/
 
       - name: Ping Gemini Vision KYC
-        run: curl -s -o /dev/null -w "KYC: %{http_code}\n" https://gemini-vision-kyc-ayush.streamlit.app/
+        run: curl -s -o /dev/null -w "KYC %{http_code}\n" https://gemini-vision-kyc-ayush.streamlit.app/
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
       - name: Push empty commit to reset sleep timer
         run: |
